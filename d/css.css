@@ -1,0 +1,42 @@
+*{
+	/* chon hame ashya margin va padding darand va baraye reset anha inkar ra miknim */
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+	list-style-type: none;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #2ecc71;
+	color: #2c3e50;
+	text-align: center;
+}
+
+li a{
+	color: #2c3e50;
+	text-decoration: none;
+	font-size: 15px;
+}
+ul li ul li {
+	background-color: #7f8c8d;
+}
+ul li ul li a{
+	color: #c0392b;
+}
+li ul {
+	/* li ke baraye ul zire menu 4 va 2 hastand ra az dide karbar makhfi mikonad */
+	display: none;
+}
+li:hover{
+	background-color: #f1c40f;
+}
+li:hover > ul{ /* > be avali ul zir majmooe eshare mikonad */ 
+	display: block;
+
+}
+.p{
+	margin-left: 150px;  /* andaze width li va baraye in ast ke zir majmooe li zire an gharar nagirad  */
+	margin-top: -50px; /* baraye inke yek khoone bala biayad va 50 px andaze line-height li ast */
+}
